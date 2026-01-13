@@ -1,0 +1,91 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CocoapodsPod",
+    "printedName": "CocoapodsPod",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CocoapodsPod"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CocoapodsPod",
+        "printedName": "CocoapodsPod",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CocoapodsPod",
+                "printedName": "CocoapodsPod.CocoapodsPod",
+                "usr": "s:12CocoapodsPodAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12CocoapodsPodAACABycfc",
+            "mangledName": "$s12CocoapodsPodAACABycfc",
+            "moduleName": "CocoapodsPod",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sharedTestPrint",
+            "printedName": "sharedTestPrint()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12CocoapodsPodAAC15sharedTestPrintyyF",
+            "mangledName": "$s12CocoapodsPodAAC15sharedTestPrintyyF",
+            "moduleName": "CocoapodsPod",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12CocoapodsPodAAC",
+        "mangledName": "$s12CocoapodsPodAAC",
+        "moduleName": "CocoapodsPod",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
